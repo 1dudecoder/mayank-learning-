@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: smaller;
+}
+
+.main{
+    background-color: #F0F2F5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+}
+
+/* 100vh - viewport hight 
+    100vw - viewport width
+    dafault flex -> row
+    justify-content -> row center
+    align-item -> column center
+    flex-direction: column; -> change flex direaction
+    
+    box-sizing: border-box; ?
+    combinators ?
+    css inheritance ?
+    css specificity ?
+
+
+*/
+
+.container{
+    height: 50vh; 
+    width: 30vw;
+    background-color: #F0F2F5;
+    border-radius: 1rem;
+    padding-top: 5rem;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-inline: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    
+}
+
+
+.forms input,button {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(148, 147, 147);
+    outline: none; 
+}
+
+button{
+    font-weight: bolder;
+    background-color: #166FE5;
+    color: white;
+}
+
+.forms p:nth-child(1){
+    font-size: larger;
+}
+
+.routes{
+    color: blue;
+}
+
+.imgs svg{
+    width: 100%;
+    height: 8rem;
+    font-size: 1rem;
+}
+
+.routes:hover{
+    text-decoration: underline;
+}
