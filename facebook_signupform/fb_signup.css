@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #F0F2F5;
+    height: 100vh;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+}
+
+hr{
+    margin-block: 0.3rem;
+}
+
+.container{
+    background-color: white;
+    height: 70%;
+    max-width: 30rem;
+    padding-block: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.inner-container{
+    text-align: center;
+}
+
+.my-form{
+    
+    padding: 1rem;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.names input{
+    width: 49%;
+    padding: 0.8rem;
+}
+
+.phones{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.phones input{
+    width: 100%;
+    padding: 0.8rem;
+}
+
+.newpassword{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.newpassword input{
+    width: 100%;
+    padding: 0.8rem;
+}
+
+.dob_text{
+    text-align: left;
+    padding-top: 0.8rem;
+}
+
+
+.dob{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+}
+
+.dob select {
+    width: 33%;
+    padding: 0.5rem;
+}
+
+.claimer{
+    font-size: smaller;
+    margin-top: 0.3rem;
+    text-align: start;
+}
+
+svg{
+    width: 25rem;
+    height: 7rem;
+}
+
+@media only screen and (max-width: 570px) {
+
+    .container{
+        background-color: white;
+        height: 70%;
+        min-width: 90%;
+    }
+
+}
